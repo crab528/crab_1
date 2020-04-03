@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Mar 28 17:55:24 CST 2020","Sat Mar 28 17:55:24 CST 2020","155","","test_login_token_book","","","","test_login_book[datas1]","对请求参数进行反序列化处理"
+"passed","Sat Mar 28 17:55:25 CST 2020","Sat Mar 28 17:55:25 CST 2020","143","","test_login_token_book","","","","test_login_book[datas3]","对请求参数进行反序列化处理"
+"passed","Sat Mar 28 17:55:25 CST 2020","Sat Mar 28 17:55:25 CST 2020","154","","test_login_token_book","","","","test_login_book[datas4]","对请求参数进行反序列化处理"
+"passed","Sat Mar 28 17:55:24 CST 2020","Sat Mar 28 17:55:24 CST 2020","275","","test_login_token_book","","","","test_login_book[datas0]","对请求参数进行反序列化处理"
+"passed","Sat Mar 28 17:55:24 CST 2020","Sat Mar 28 17:55:25 CST 2020","199","","test_login_token_book","","","","test_login_book[datas2]","对请求参数进行反序列化处理"

@@ -1,0 +1,42 @@
+url: http://127.0.0.1:5000/login/
+method: post
+data:
+    username: crab_001
+    password: 8745
+    age: 18
+    sex: 女
+expected: crab
+---
+url: http://127.0.0.1:5000/login/
+method: post
+data:
+    password: 874534
+    age: 19
+    sex: 男
+expected: 您的用户名验证错误
+---
+url: http://127.0.0.1:5000/login/
+method: post
+data:
+    username: crab_003
+    age: 19
+    sex: 男
+expected: 用户密码不能为空
+---
+url: http://127.0.0.1:5000/login/
+method: post
+data:
+    username: crab_004
+    password: wnq
+    age: assss
+    sex: 男
+expected: 年龄必须为正整数
+---
+url: http://127.0.0.1:5000/login/
+method: post
+data:
+    username: crab_004
+    password: wnq
+    age: 19
+    sex: 其他
+expected: 性别只能是男或女
